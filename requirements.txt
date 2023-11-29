@@ -9,5 +9,4 @@ numpy
 Pillow
 opencv-python
 mediapipe
-ultralytics
 python-multipart

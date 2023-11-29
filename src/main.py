@@ -16,13 +16,10 @@ from fastapi import (
 from fastapi.responses import Response
 import numpy as np
 from PIL import Image
-from datetime import datetime as dt
 import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
-from typing import Any
 import numpy as np
-from ultralytics import YOLO
 
 FACE_MODEL_PATH = "src/blaze_face_short_range.tflite"
     
